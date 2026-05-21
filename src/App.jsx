@@ -1,6 +1,6 @@
 import Saludo from "./Saludo.jsx"
 import Tarjeta from "./Tarjeta.jsx"
-import Lillian from "./assets/LillianBench.png"
+import Lillian from "./assets/lillianBench.png"
 import Ryley from "./assets/RyleyRobinson.png"
 
 function App() {
