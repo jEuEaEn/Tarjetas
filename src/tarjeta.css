@@ -1,0 +1,47 @@
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.tarjetas-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+#Tarjeta{
+    background-color: rgba(76, 87, 86, 0.411);
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+#Tarjeta:hover{
+    transform: translateY(-5px);
+}
+
+button{
+    background-color: gray;
+    width: 80%;
+    border-color: gray;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: #555;
+}
