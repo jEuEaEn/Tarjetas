@@ -20,11 +20,11 @@ function App() {
       }
     ]
 
-  return (<>
+  return (<div className="tarjetas-container">
         {characters.map((personaje) =>{
            return <Tarjeta imagen={personaje.imagen} nombre={personaje.nombre} rol={personaje.rol} />
         })}
-    </>
+    </div>
   )
 }
 
