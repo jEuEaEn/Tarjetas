@@ -24,12 +24,17 @@ function App() {
       alert("Hola, " + nombre)
     }
 
-  return (<div className="tarjetas-container">
-        {characters.map((personaje) =>{
+  return (< >
+        <Saludo saludo ={"Usuario"}/>
+        <div className="tarjetas-container">
+          {characters.map((personaje) =>{
+
            return <Tarjeta imagen={personaje.imagen} nombre={personaje.nombre} rol={personaje.rol} boton={()=>saludo(personaje.nombre)} />
            
-        })}
-    </div>
+          })}
+        </div>
+        
+    </>
   )
 }
 
