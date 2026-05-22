@@ -8,7 +8,7 @@ function App() {
         <Saludo saludo = "Jole"/>
         <div className="tarjetas-container">
           <Tarjeta imagen={Lillian} nombre={"Lillian Bench"} rol={"Xenobiologa"}/>
-          <Tarjeta imagen={Ryley} nombre={"Ryley Robinson"} rol={"Jefe de Mantenimiento de Sistemas No Esenciales"}/>
+          <Tarjeta imagen={Ryley} nombre={"Ryley Robinson"} rol={"Jefe de mantenimiento de Sistemas No Esenciales"}/>
           
         </div>
     </>
